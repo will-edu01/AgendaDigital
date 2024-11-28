@@ -1,1 +1,84 @@
-<p>home works!</p>
+<link rel="stylesheet" href="home.component.css">
+<body>
+  <!-- Cabeçalho com navegação -->
+  <header>
+    <nav>
+      <a class="logo">Espaço de Beleza</a>
+      <div class="mobile-menu">
+        <div class="line1"></div>
+        <div class="line2"></div>
+        <div class="line3"></div>
+      </div>
+      <ul class="nav-list">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#Perfil">Perfil</a></li>
+        <li><a href="#Minha Agenda">Minha Agenda</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Primeira Tela -->
+  <main>
+    <section class="intro">
+      <p>Em nosso espaço a beleza encontra seu lugar, em um ambiente acolhedor que realça o que há de mais belo em cada pessoa.</p>
+    </section>
+
+    <section class="procedures">
+      <h3>Procedimentos</h3>
+      <div class="cards">
+        <div class="card">
+          <img src="imagem/cilios.png" alt="Cílios">
+          <span>Cílios</span>
+        </div>
+        <div class="card">
+          <img src="imagem/sobrancelha.png" alt="Sobrancelha">
+          <span>Sobrancelha</span>
+        </div>
+        <div class="card">
+          <img src="imagem/unhas.png" alt="Unhas">
+          <span>Unhas</span>
+        </div>
+      </div>
+    </section>
+  </main>
+
+<!-- Segunda Tela -->
+<section class="hero">
+    <h1>Realize seus agendamentos com<br>compromisso e segurança</h1>
+</section>
+
+<div class="form-container">
+    <div class="form-header">
+        Agendamento
+    </div>
+    <div class="form-body">
+        <p>Por favor, selecione o serviço</p>
+
+        <label for="service">* Serviço:</label>
+        <select id="service">
+            <option></option>
+            <option>Manicure</option>
+            <option>Pedicure</option>
+        </select>
+
+        <label for="professional">* Profissional:</label>
+        <select id="professional">
+            <option></option>
+            <option>Joana</option>
+            <option>Maria</option>
+        </select>
+
+        <div class="toggle-container">
+            <label for="accompany">Trará acompanhante?</label>
+            <input type="checkbox" id="accompany">
+        </div>
+
+        <div class="extras">
+            <img src="plus-icon.png" alt="Mais"> <!-- Substitua pelo ícone adequado -->
+            Outros Serviços
+        </div>
+    </div>
+</div>
+<!-- Codigo Java -->
+  <script src="home.component.js"></script>
+</body>
