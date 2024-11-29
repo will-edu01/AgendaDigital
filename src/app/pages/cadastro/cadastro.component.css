@@ -1,0 +1,82 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    width: 80%;
+    max-width: 1200px;
+    height: 70%;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.background {
+    flex: 1;
+    display: flex;
+    background-size: cover;
+    background-position: left;
+    background: url("Espaço.jpg");
+}
+
+.login-form {
+    flex: 1;
+    background-color: #ffd1d1;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: center;
+    padding: 40px;
+}
+
+h2 {
+    margin-bottom: 20px;
+    color: #333;
+    font-size: 1.8rem;
+}
+
+form {
+    width: 100%;
+    max-width: 300px;
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 50px;
+    font-size: 1rem;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #ff8a8a;
+    color: white;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #ac1010;
+}
+
+.options {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    font-size: 0.9rem;
+}
